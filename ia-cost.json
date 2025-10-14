@@ -218,7 +218,8 @@
             "image"
         ],
         "supported_output_modalities": [
-            "text"
+             "text",
+            "image"
         ],
         "supports_reasoning": true,
         "supports_tool_choice": true
