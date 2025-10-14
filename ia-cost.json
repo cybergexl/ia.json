@@ -204,7 +204,7 @@
       "output_cost_per_image": 0.03,
       "supports_tool_choice": true
     },
-	    "gemini---image": {
+	"gemini---image": {
       "litellm_provider": "imagerouter",
       "max_tokens": 0,
       "mode": "image_generation",
