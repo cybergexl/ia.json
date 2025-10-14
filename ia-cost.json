@@ -1,0 +1,40 @@
+{
+    "gpt-rapide": {
+        "cache_read_input_token_cost": 2.5e-08,
+        "input_cost_per_token": 2.5e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "output_cost_per_token": 2e-06,
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_reasoning": true,
+        "supports_tool_choice": true
+    },
+    "gpt---rapide": {
+        "cache_read_input_token_cost": 2.5e-08,
+        "input_cost_per_token": 2.5e-07,
+        "litellm_provider": "openrouter",
+        "max_input_tokens": 272000,
+        "max_output_tokens": 128000,
+        "max_tokens": 128000,
+        "mode": "chat",
+        "output_cost_per_token": 2e-06,
+        "supported_modalities": [
+            "text",
+            "image"
+        ],
+        "supported_output_modalities": [
+            "text"
+        ],
+        "supports_reasoning": true,
+        "supports_tool_choice": true
+    }
+}
