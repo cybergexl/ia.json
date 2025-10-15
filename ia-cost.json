@@ -79,7 +79,7 @@
   },
   "gemini-image": {
     "cost_image": 0.1,
-    "model_name": "google/gemini-2.5-flash",
+    "model_name": "gemini-2.5-flash",
     "type_modele": "image"
   }
 }
