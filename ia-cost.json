@@ -1,24 +1,107 @@
 {
-   "gpt-rapide": {
-      "cache_read_input_token_cost": 2.5e-08,
-      "input_cost_per_token": 2.5e-07,
-      "output_cost_per_token": 2e-06,
-      "model_name": "openai/gpt-5-mini",
-      "type_modele": "text"
-   },
-   "gpt-image": {
-      "cost_image": 0.1,
-      "model_name": "openai/gpt-5-mini",
-      "type_modele": "image"
-   },
-   "openai/gpt-image-1": {
-      "cost_image": 0.1,
-      "model_name": "openai/gpt-image-1-mini",
-      "type_modele": "image"
-   },
-   "gpt-image-1": {
-      "cost_image": 0.1,
-      "model_name": "openai/gpt-image-1-mini",
-      "type_modele": "image"
-   }
+  "gpt-rapide": {
+    "cache_read_input_token_cost": 2.5e-08,
+    "input_cost_per_token": 2.5e-07,
+    "output_cost_per_token": 2e-06,
+    "model_name": "openai/gpt-5-mini",
+    "type_modele": "text",
+    "categorie": "rapide"
+  },
+  "gpt-reflexion": {
+    "input_cost_per_token": 1.25e-06,
+    "output_cost_per_token": 1e-05,
+    "model_name": "openai/gpt-5",
+    "type_modele": "text",
+    "categorie": "réflexion"
+  },
+  "gpt-hybride": {
+    "input_cost_per_token": 1.25e-06,
+    "output_cost_per_token": 1e-05,
+    "model_name": "openai/gpt-5-chat",
+    "type_modele": "text",
+    "categorie": "hybride"
+  },
+  "gpt-image": {
+    "cost_image": 0.1,
+    "model_name": "openai/gpt-5-mini",
+    "type_modele": "image",
+    "categorie": "image"
+  },
+
+  "claude-reflexion": {
+    "input_cost_per_token": 3e-06,
+    "output_cost_per_token": 1.5e-05,
+    "model_name": "anthropic/claude-sonnet-4.5",
+    "type_modele": "text",
+    "categorie": "réflexion",
+    "premium": true
+  },
+  "claude-reflexion-2": {
+    "input_cost_per_token": 3e-06,
+    "output_cost_per_token": 1.5e-05,
+    "model_name": "anthropic/claude-3.7-sonnet",
+    "type_modele": "text",
+    "categorie": "réflexion",
+    "premium": true
+  },
+
+  "gemini-rapide": {
+    "input_cost_per_token": 3e-07,
+    "output_cost_per_token": 2.5e-06,
+    "model_name": "google/gemini-2.5-flash-preview-09-2025",
+    "type_modele": "text",
+    "categorie": "rapide"
+  },
+  "gemini-reflexion": {
+    "input_cost_per_token": 1.25e-06,
+    "output_cost_per_token": 1e-05,
+    "model_name": "google/gemini-2.5-pro",
+    "type_modele": "text",
+    "categorie": "réflexion"
+  },
+  "gemini-image": {
+    "cost_image": 0.1,
+    "model_name": "google/gemini-2.5-flash",
+    "type_modele": "image",
+    "categorie": "image"
+  },
+
+  "mistral-rapide": {
+    "input_cost_per_token": 6e-08,
+    "output_cost_per_token": 1.8e-07,
+    "model_name": "mistralai/mistral-small-3.2-24b-instruct",
+    "type_modele": "text",
+    "categorie": "rapide"
+  },
+  "mistral-reflexion": {
+    "input_cost_per_token": 2e-06,
+    "output_cost_per_token": 6e-06,
+    "model_name": "mistralai/mistral-large-2411",
+    "type_modele": "text",
+    "categorie": "réflexion"
+  },
+
+  "grok-rapide": {
+    "input_cost_per_token": 2e-07,
+    "output_cost_per_token": 1.5e-06,
+    "model_name": "x-ai/grok-code-fast-1",
+    "type_modele": "text",
+    "categorie": "rapide"
+  },
+  "grok-reflexion": {
+    "input_cost_per_token": 3e-06,
+    "output_cost_per_token": 1.5e-05,
+    "model_name": "x-ai/grok-4",
+    "type_modele": "text",
+    "categorie": "réflexion",
+    "premium": true
+  },
+
+  "correctionreformulationtraduction": {
+    "input_cost_per_token": 1e-07,
+    "output_cost_per_token": 4e-07,
+    "model_name": "google/gemini-2.5-flash",
+    "type_modele": "text",
+    "categorie": "correction"
+  }
 }
