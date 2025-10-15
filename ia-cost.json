@@ -72,7 +72,7 @@
     "model_name": "google/gemini-2.5-flash",
     "type_modele": "text"
   },
-  "gpt-image-1": {
+  "gpt-image": {
     "cost_image": 0.1,
     "model_name": "gpt-image-1",
     "type_modele": "image"
