@@ -84,7 +84,7 @@
   },
   "perplexity-rapide": {
     "input_cost_per_token": 1e-06,
-    "output_cost_per_token": 1-06,
+    "output_cost_per_token": 1e-06,
     "model_name": "perplexity/sonar",
     "type_modele": "text"
   },
