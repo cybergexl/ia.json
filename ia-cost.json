@@ -99,5 +99,11 @@
     "output_cost_per_token": 8e-06,
     "model_name": "perplexity/sonar-reasoning-pro",
     "type_modele": "text"
+  },
+  "claude-developpement": {
+    "input_cost_per_token": 1e-06,
+    "output_cost_per_token": 5e-06,
+    "model_name": "anthropic/claude-haiku-4.5",
+    "type_modele": "text"
   }
 }
