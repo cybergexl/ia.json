@@ -73,13 +73,18 @@
     "type_modele": "text"
   },
   "gpt-image": {
-    "cost_image": 0.1,
+    "cost_image": 0.15,
     "model_name": "gpt-image-1",
     "type_modele": "image"
   },
   "gemini-image": {
     "cost_image": 0.1,
     "model_name": "gemini-2.5-flash",
+    "type_modele": "image"
+  },
+  "nano-banan-2-image": {
+    "cost_image": 0.1,
+    "model_name": "nano-banana-2",
     "type_modele": "image"
   },
   "perplexity-rapide": {
