@@ -87,6 +87,11 @@
     "model_name": "nano-banana-2",
     "type_modele": "image"
   },
+  "texte-to-video": {
+    "cost_image": 0.5,
+    "model_name": "seedance-1-pro-fast",
+    "type_modele": "image"
+  },
   "perplexity-rapide": {
     "input_cost_per_token": 1e-06,
     "output_cost_per_token": 1e-06,
