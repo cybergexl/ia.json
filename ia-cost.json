@@ -1,9 +1,9 @@
 {
   "gpt-rapide": {
     "cache_read_input_token_cost": 2.5e-08,
-    "input_cost_per_token": 0.4e-06,
-    "output_cost_per_token": 1.6e-06,
-    "model_name": "openai/gpt-5-mini",
+    "input_cost_per_token": 0.20e-06,
+    "output_cost_per_token": 1.25e-06,
+    "model_name": "openai/gpt-5.4-nano",
     "type_modele": "text"
   },
   "minimax": {
@@ -13,15 +13,15 @@
     "type_modele": "text"
   },
   "gpt-rflexion": {
-    "input_cost_per_token": 1.75e-06,
-    "output_cost_per_token": 14e-06,
+    "input_cost_per_token": 2.50e-06,
+    "output_cost_per_token": 15e-06,
     "model_name": "openai/gpt-5.2",
     "type_modele": "text"
   },
   "gpt-hybride": {
-    "input_cost_per_token": 1.75e-06,
-    "output_cost_per_token": 14e-06,
-    "model_name": "openai/gpt-5.2-chat",
+    "input_cost_per_token": 0.75e-06,
+    "output_cost_per_token": 4.50e-06,
+    "model_name": "openai/gpt-5.4-mini",
     "type_modele": "text"
   },
   "claude-rflexion": {
