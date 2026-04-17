@@ -93,6 +93,11 @@
     "model_name": "nano-banana-2",
     "type_modele": "image"
   },
+  "wan-image": {
+    "cost_image": 0.1,
+    "model_name": "wan-2.7-image",
+    "type_modele": "image"
+  },
   "texte-to-video": {
     "cost_image": 0.5,
     "model_name": "seedance-1-pro-fast",
