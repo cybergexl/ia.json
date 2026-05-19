@@ -33,7 +33,7 @@
   "claude-rflexion-2": {
     "input_cost_per_token": 3e-06,
     "output_cost_per_token": 15e-06,
-    "model_name": "anthropic/claude-3.7-sonnet",
+    "model_name": "anthropic/claude-sonnet-4.6",
     "type_modele": "text"
   },
   "gemini-rapide": {
