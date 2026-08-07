@@ -55,9 +55,9 @@
     "type_modele": "text"
   },
   "mistral-rflexion": {
-    "input_cost_per_token": 2e-06,
-    "output_cost_per_token": 6e-06,
-    "model_name": "mistralai/mistral-large-2411",
+    "input_cost_per_token": 0.5e-06,
+    "output_cost_per_token": 1.5e-06,
+    "model_name": "mistralai/mistral-large-2512",
     "type_modele": "text"
   },
   "grok-rapide": {
@@ -85,12 +85,12 @@
   },
   "gemini-image": {
     "cost_image": 0.1,
-    "model_name": "gemini-2.5-flash",
+    "model_name": "google/gemini-2.5-flash",
     "type_modele": "image"
   },
   "nano-banan-2-image": {
     "cost_image": 0.1,
-    "model_name": "nano-banana-2",
+    "model_name": "google/nano-banana-2",
     "type_modele": "image"
   },
   "wan-image": {
