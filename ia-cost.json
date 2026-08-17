@@ -126,5 +126,11 @@
     "output_cost_per_token": 5e-06,
     "model_name": "anthropic/claude-haiku-4.5",
     "type_modele": "text"
+  },
+  "pennylane": {
+    "input_cost_per_token": 0.14e-06,
+    "output_cost_per_token": 0.28e-06,
+    "model_name": "deepseek/deepseek-v4-flash-0731",
+    "type_modele": "text"
   }
 }
