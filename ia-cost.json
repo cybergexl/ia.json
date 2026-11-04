@@ -132,5 +132,17 @@
     "output_cost_per_token": 0.28e-06,
     "model_name": "deepseek/deepseek-v4-flash-0731",
     "type_modele": "text"
-  }
+  },
+  "deepseek/deepseek-v4.1-flash": {
+    "input_cost_per_token": 0.032e-06,
+    "output_cost_per_token": 0.288e-06,
+    "model_name": "deepseek/deepseek-v4.1-flash",
+    "type_modele": "text"
+  },
+  "gnration-de-document": {
+    "input_cost_per_token": 0.032e-06,
+    "output_cost_per_token": 0.288e-06,
+    "model_name": "deepseek/deepseek-v4.1-flash",
+    "type_modele": "text"
+  },
 }
