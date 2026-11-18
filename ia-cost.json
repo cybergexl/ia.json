@@ -145,7 +145,7 @@
     "model_name": "deepseek/deepseek-v4.1-flash",
     "type_modele": "text"
   },
-  "IA du mois": {
+  "IA-du-mois": {
     "input_cost_per_token": 0.03e-06,
     "output_cost_per_token": 0.5e-06,
     "model_name": "deepseek/deepseek-v4.1-flash-1017",
